@@ -1,0 +1,1 @@
+# linter-ruby-casptone
