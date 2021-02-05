@@ -27,31 +27,31 @@ To have a local version of this code running do the following:
 ## Good code
 ~~~ruby
 
-.ticket-wrapper {
-  display: grid;
-  grid-template-rows: 1fr 9fr 1fr;
-  grid-template-columns: 1fr 6fr 1fr;
-} 
+    .ticket-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    } 
 
-#lunch-wrapper {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 6fr 1fr;
-}
+    #lunch-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    }
 
-.btn:hover {
-  opacity: 0.7;
-}       
+    .btn:hover {
+    opacity: 0.7;
+    }       
 
-#slct-lunch {
-  grid-area: slct-lunch;
-  align-self: center;
-  justify-content: center;
-}
+    #slct-lunch {
+    grid-area: slct-lunch;
+    align-self: center;
+    justify-content: center;
+    }
 
-.vegetarians {color: red }  
+    .vegetarians {color: red }  
 
-#text-bg { background-color: rebeccapurple }
+    #text-bg { background-color: rebeccapurple }
 ~~~
 
 ## Authors
