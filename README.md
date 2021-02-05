@@ -25,8 +25,7 @@ To have a local version of this code running do the following:
 - Run the command `ruby /bin/main.rb`
 
 ## Good code
-`
-.ticket-wrapper {
+`.ticket-wrapper {
   display: grid;
   grid-template-rows: 1fr 9fr 1fr;
   grid-template-columns: 1fr 6fr 1fr;
@@ -50,8 +49,7 @@ To have a local version of this code running do the following:
 
 .vegetarians {color: red }  
 
-#text-bg { background-color: rebeccapurple }  
-`
+#text-bg { background-color: rebeccapurple }`
 
 ## Authors
 
