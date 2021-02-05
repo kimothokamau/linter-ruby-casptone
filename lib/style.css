@@ -1,0 +1,33 @@
+. ticket-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 9fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
+} 
+
+# lunch-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}       
+
+#slct-lunch{
+  grid-area: slct-lunch;
+  align-self: center;
+  justify-content: center;
+}
+
+.vegetarians { }  
+
+#text-bg { }  
+
+/* . h1-class{
+  color: orangered;
+} 
+
+# h1-class{
+  color: orange;
+}  */

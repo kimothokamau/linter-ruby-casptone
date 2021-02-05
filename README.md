@@ -7,6 +7,7 @@ It tests the understanding of ....
 ## Built with
 
 - Ruby
+- RSpec for testing
 
 ## Live Demo
 
