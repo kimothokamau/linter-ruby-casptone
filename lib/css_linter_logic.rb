@@ -15,6 +15,10 @@ class Validate
     file.each_line { |line| validate_line(scan_line(line)) }
   end
 
+  def create_buffer(line)
+    StringScanner.new(line)
+  end
+
   def scan_line(line)
     StringScanner.new(line)
   end
