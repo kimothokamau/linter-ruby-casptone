@@ -1,11 +1,9 @@
-require 'colorize'
-
 class TrailingSpaceClass
   attr_reader :regxp, :error_message
 
   def initialize
     @regxp = /\. [a-zA-Z0-9-]/
-    @error_message = 'There should be no empty space after calling a class selector'.red
+    @error_message = 'There should be no empty space after calling a class selector'
   end
 end
 
@@ -14,7 +12,7 @@ class TrailingSpaceID
 
   def initialize
     @regxp = /\# [a-zA-Z0-9-]/
-    @error_message = 'There should be no empty space after calling a ID selector'.red
+    @error_message = 'There should be no empty space after calling a ID selector'
   end
 end
 
@@ -23,7 +21,7 @@ class SpaceBeforeCurlyClass
 
   def initialize
     @regxp = /\.[a-zA-Z0-9-]+\{/
-    @error_message = 'There should be an empty space before the opening curly braces'.red
+    @error_message = 'There should be an empty space before the opening curly braces'
   end
 end
 
@@ -32,7 +30,7 @@ class SpaceBeforeCurlyID
 
   def initialize
     @regxp = /\#[a-zA-Z0-9-]+\{/
-    @error_message = 'There should be an empty space before the opening curly braces'.red
+    @error_message = 'There should be an empty space before the opening curly braces'
   end
 end
 
@@ -41,6 +39,6 @@ class EmptyRule
 
   def initialize
     @regxp = /\.[a-zA-Z0-9-]+\s{\s*}/
-    @error_message = 'There is no CSS rule inside the curly braces'.red
+    @error_message = 'There is no CSS rule inside the curly braces'
   end
 end
