@@ -54,11 +54,47 @@ To have a local version of this code running do the following:
     #text-bg { background-color: rebeccapurple }
 ~~~
 
+## Bad code
+~~~ruby
+
+  . ticket-wrapper {
+    display: grid;
+  } 
+
+  # lunch-wrapper {
+    display: grid;
+  }
+
+  .btn:hover{
+    opacity: 0.7;
+  }       
+
+  #slct-lunch{
+    grid-area: slct-lunch;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .vegetarians { }  
+
+  #text-bg { }  
+~~~
+
 ## Authors
+
+**Kimotho Kamau**
+
+- GitHub: [@kimothokamau](https://github.com/kimothokamau)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kimotho-kamau-6ab307185/)
 
 ## Contributing
 
+Contributions, issues, and feature requests are welcome!
+
 ## Show your support
+
+Give a ⭐️ if you like this project!
 
 ## License
 
+This project is [MIT](./LICENSE) licensed.
