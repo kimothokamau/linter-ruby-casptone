@@ -1,6 +1,6 @@
 # Ruby Casptone Project - Build a CSS Linter
 
-This project was done as the final/casptone prject of the Microverse's Ruby curriculum. The goal of the project is to build CSS linter.
+This project was done as the final/casptone project of the Microverse Ruby curriculum. The goal of the project is to build CSS linter.
 
 It tests the understanding of ruby;OOP, Classes, inheritance, encapsulation, testing and project structure organization
 
@@ -15,13 +15,13 @@ In this case, the linter built is to:
 
 - Ruby
 - RSpec for testing
-- Colorize
 
 ## Getting Started
 To have a local version of this code running do the following:
 - Clone the repository `git clone https://github.com/kimothokamau/linter-ruby-casptone.git`
 - Install the ruby compiler and any preferred code editor of your choice
 - Navigate to the directory containing this code
+- Install the following gems: strscan and rspec 
 - Run the command `ruby bin/main.rb`
 
 ## Good code
