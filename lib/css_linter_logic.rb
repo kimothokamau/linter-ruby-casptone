@@ -19,6 +19,8 @@ class Validate
     StringScanner.new(line)
   end
 
+  private
+
   def scan_line(line)
     StringScanner.new(line)
   end
