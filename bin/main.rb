@@ -2,7 +2,7 @@
 
 require_relative '../lib/css_linter_logic'
 
-file = '../lib/style.css'
+file = 'lib/style.css'
 
 f = File.open(file, 'r+')
 new_validate = Validate.new
