@@ -1,0 +1,22 @@
+. ticket-wrapper {
+  display: -ms-grid;
+  display: grid;
+} 
+
+# lunch-wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}       
+
+#slct-lunch{
+  align-self: center;
+  justify-content: center;
+}
+
+.vegetarians { }  
+
+#text-bg { }  
