@@ -19,11 +19,11 @@ class Validate
     StringScanner.new(line)
   end
 
-  private
-
   def scan_line(line)
     StringScanner.new(line)
   end
+
+  private
 
   def check_match(buffer, regxp)
     buffer.check_until(regxp)
