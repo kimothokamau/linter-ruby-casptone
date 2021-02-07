@@ -39,7 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (~> 2.2.8)
   rspec (~> 3.10.0)
   rubocop (~> 0.81.0)
   ruby
